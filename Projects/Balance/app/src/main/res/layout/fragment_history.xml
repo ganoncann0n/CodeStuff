@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ganoncannon.balance.History">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/firstWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Week 1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/firstProgress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/firstProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="141dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="28dp"
+                    android:clickable="true"
+                    android:fadingEdge="none|horizontal|vertical"
+                    android:forceHasOverlappingRendering="true"
+                    android:max="100"
+                    android:progress="66"
+                    android:progressDrawable="@drawable/circular"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/firstPercent"
+                    android:layout_width="75dp"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:elevation="7dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="66%"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="@+id/firstButton"
+                    app:layout_constraintEnd_toEndOf="@+id/firstButton"
+                    app:layout_constraintStart_toStartOf="@+id/firstButton"
+                    app:layout_constraintTop_toTopOf="@+id/firstButton" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/firstButton"
+                    android:layout_width="116dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:src="@drawable/circular"
+                    app:backgroundTint="@android:color/background_light"
+                    app:layout_constraintBottom_toBottomOf="@+id/firstProgress"
+                    app:layout_constraintEnd_toEndOf="@+id/firstProgress"
+                    app:layout_constraintStart_toStartOf="@+id/firstProgress"
+                    app:layout_constraintTop_toTopOf="@+id/firstProgress" />
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/secondWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Week 2"
+                    android:textColor="@color/colorAcc2"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/secondProgress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/secondProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="141dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="28dp"
+                    android:clickable="true"
+                    android:fadingEdge="none|horizontal|vertical"
+                    android:forceHasOverlappingRendering="true"
+                    android:max="100"
+                    android:progress="80"
+                    android:progressDrawable="@drawable/circular"
+                    android:progressTint="@color/colorAcc2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/secondPercent"
+                    android:layout_width="75dp"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:elevation="7dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="88%"
+                    android:textColor="@color/colorAcc2"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="@+id/secondButton"
+                    app:layout_constraintEnd_toEndOf="@+id/secondButton"
+                    app:layout_constraintStart_toStartOf="@+id/secondButton"
+                    app:layout_constraintTop_toTopOf="@+id/secondButton" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/secondButton"
+                    android:layout_width="109dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:src="@drawable/circular"
+                    app:backgroundTint="@android:color/background_light"
+                    app:layout_constraintBottom_toBottomOf="@+id/secondProgress"
+                    app:layout_constraintEnd_toEndOf="@+id/secondProgress"
+                    app:layout_constraintStart_toStartOf="@+id/secondProgress"
+                    app:layout_constraintTop_toTopOf="@+id/secondProgress" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thirdWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Week 3"
+                    android:textColor="@color/colorAcc3"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/thirdProgress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/thirdProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="141dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="28dp"
+                    android:clickable="true"
+                    android:fadingEdge="none|horizontal|vertical"
+                    android:forceHasOverlappingRendering="true"
+                    android:max="100"
+                    android:progress="98"
+                    android:progressDrawable="@drawable/circular"
+                    android:progressTint="@color/colorAcc3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/thirdPercent"
+                    android:layout_width="75dp"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:elevation="7dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="98%"
+                    android:textColor="@color/colorAcc3"
+                    android:textSize="14pt"
+                    app:layout_constraintBottom_toBottomOf="@+id/thirdButton"
+                    app:layout_constraintEnd_toEndOf="@+id/thirdButton"
+                    app:layout_constraintStart_toStartOf="@+id/thirdButton"
+                    app:layout_constraintTop_toTopOf="@+id/thirdButton" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/thirdButton"
+                    android:layout_width="109dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:src="@drawable/circular"
+                    app:backgroundTint="@android:color/background_light"
+                    app:layout_constraintBottom_toBottomOf="@+id/thirdProgress"
+                    app:layout_constraintEnd_toEndOf="@+id/thirdProgress"
+                    app:layout_constraintStart_toStartOf="@+id/thirdProgress"
+                    app:layout_constraintTop_toTopOf="@+id/thirdProgress" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
