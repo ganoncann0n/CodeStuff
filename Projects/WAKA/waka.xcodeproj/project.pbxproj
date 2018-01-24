@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331B79CD1CD60D04003D2184 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B79CC1CD60D04003D2184 /* Metronome.swift */; };
+		332737D01C9149DB00111D14 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332737CF1C9149DB00111D14 /* Filter.swift */; };
+		332737D11C9149DB00111D14 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332737CF1C9149DB00111D14 /* Filter.swift */; };
+		33CE12291C7EAD2C00851E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE12281C7EAD2C00851E44 /* AppDelegate.swift */; };
+		33CE122B1C7EAD2C00851E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE122A1C7EAD2C00851E44 /* ViewController.swift */; };
+		33CE122E1C7EAD2C00851E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE122C1C7EAD2C00851E44 /* Main.storyboard */; };
+		33CE12301C7EAD2C00851E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CE122F1C7EAD2C00851E44 /* Assets.xcassets */; };
+		33CE12331C7EAD2C00851E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE12311C7EAD2C00851E44 /* LaunchScreen.storyboard */; };
+		33CE123E1C7EAD2C00851E44 /* wakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE123D1C7EAD2C00851E44 /* wakaTests.swift */; };
+		33CE12491C7EAD2C00851E44 /* wakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE12481C7EAD2C00851E44 /* wakaUITests.swift */; };
+		5A9B21614447635AC0FC3A95 /* Pods_wakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E82432B67CB35DAC1A0F2 /* Pods_wakaTests.framework */; };
+		68AE29E978D22B9C1B105763 /* Pods_waka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A301C74D89A50DFEA3EBAF1D /* Pods_waka.framework */; };
+		D645E7011CC0B0F5006E806F /* ToneGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645E7001CC0B0F5006E806F /* ToneGenerator.swift */; };
+		D67B71601C9007290095C767 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67B715F1C9007290095C767 /* AboutMeViewController.swift */; };
+		D687D7B81CC0CAAF00745DB4 /* TunerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687D7B71CC0CAAF00745DB4 /* TunerCore.swift */; };
+		D6880E8E1C91263600CBBCEC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6880E8D1C91263600CBBCEC /* TabBarController.swift */; };
+		D6880E901C91265B00CBBCEC /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6880E8F1C91265B00CBBCEC /* FilterViewController.swift */; };
+		D6880E921C91266600CBBCEC /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6880E911C91266600CBBCEC /* TunerViewController.swift */; };
+		D6880E941C91269A00CBBCEC /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6880E931C91269A00CBBCEC /* MetronomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CE123A1C7EAD2C00851E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CE121D1C7EAD2C00851E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CE12241C7EAD2C00851E44;
+			remoteInfo = waka;
+		};
+		33CE12451C7EAD2C00851E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CE121D1C7EAD2C00851E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CE12241C7EAD2C00851E44;
+			remoteInfo = waka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		331B79CC1CD60D04003D2184 /* Metronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Metronome.swift; path = waka/Metronome.swift; sourceTree = "<group>"; };
+		332737CF1C9149DB00111D14 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = waka/Filter.swift; sourceTree = "<group>"; };
+		33CE12251C7EAD2C00851E44 /* waka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE12281C7EAD2C00851E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33CE122A1C7EAD2C00851E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = waka/ViewController.swift; sourceTree = "<group>"; };
+		33CE122D1C7EAD2C00851E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CE122F1C7EAD2C00851E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CE12321C7EAD2C00851E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33CE12341C7EAD2C00851E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE12391C7EAD2C00851E44 /* wakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE123D1C7EAD2C00851E44 /* wakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakaTests.swift; sourceTree = "<group>"; };
+		33CE123F1C7EAD2C00851E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE12441C7EAD2C00851E44 /* wakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE12481C7EAD2C00851E44 /* wakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakaUITests.swift; sourceTree = "<group>"; };
+		33CE124A1C7EAD2D00851E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBCFB6DE7243DCDB8A69C3E /* Pods-waka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waka.release.xcconfig"; path = "Pods/Target Support Files/Pods-waka/Pods-waka.release.xcconfig"; sourceTree = "<group>"; };
+		6A5E82432B67CB35DAC1A0F2 /* Pods_wakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD8D4ED27E7041A9654CAD9 /* Pods-waka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-waka/Pods-waka.debug.xcconfig"; sourceTree = "<group>"; };
+		99CE2447414D92BAB281CD1F /* Pods-wakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wakaTests/Pods-wakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A301C74D89A50DFEA3EBAF1D /* Pods_waka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D645E7001CC0B0F5006E806F /* ToneGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToneGenerator.swift; path = waka/ToneGenerator.swift; sourceTree = "<group>"; };
+		D67B715F1C9007290095C767 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = waka/AboutMeViewController.swift; sourceTree = "<group>"; };
+		D687D7B71CC0CAAF00745DB4 /* TunerCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TunerCore.swift; path = waka/TunerCore.swift; sourceTree = "<group>"; };
+		D6880E8D1C91263600CBBCEC /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = waka/TabBarController.swift; sourceTree = "<group>"; };
+		D6880E8F1C91265B00CBBCEC /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterViewController.swift; path = waka/FilterViewController.swift; sourceTree = "<group>"; };
+		D6880E911C91266600CBBCEC /* TunerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TunerViewController.swift; path = waka/TunerViewController.swift; sourceTree = "<group>"; };
+		D6880E931C91269A00CBBCEC /* MetronomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetronomeViewController.swift; path = waka/MetronomeViewController.swift; sourceTree = "<group>"; };
+		E157548409267A45C4A30F45 /* Pods-wakaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wakaTests/Pods-wakaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CE12221C7EAD2C00851E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AE29E978D22B9C1B105763 /* Pods_waka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12361C7EAD2C00851E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9B21614447635AC0FC3A95 /* Pods_wakaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12411C7EAD2C00851E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CE121C1C7EAD2C00851E44 = {
+			isa = PBXGroup;
+			children = (
+				D6A979C41CBA0EF000F8AF79 /* AudioProcessers */,
+				D6A979C31CBA0EBE00F8AF79 /* ViewControllers */,
+				D6880E951C912EE800CBBCEC /* Images */,
+				33CE12271C7EAD2C00851E44 /* waka */,
+				33CE123C1C7EAD2C00851E44 /* wakaTests */,
+				33CE12471C7EAD2C00851E44 /* wakaUITests */,
+				33CE12261C7EAD2C00851E44 /* Products */,
+				9B2C70B3D6BD09E2B23144EC /* Frameworks */,
+				40DD920E803D4EAE5A42FE71 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		33CE12261C7EAD2C00851E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CE12251C7EAD2C00851E44 /* waka.app */,
+				33CE12391C7EAD2C00851E44 /* wakaTests.xctest */,
+				33CE12441C7EAD2C00851E44 /* wakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CE12271C7EAD2C00851E44 /* waka */ = {
+			isa = PBXGroup;
+			children = (
+				33CE12281C7EAD2C00851E44 /* AppDelegate.swift */,
+				33CE122C1C7EAD2C00851E44 /* Main.storyboard */,
+				33CE122F1C7EAD2C00851E44 /* Assets.xcassets */,
+				33CE12311C7EAD2C00851E44 /* LaunchScreen.storyboard */,
+				33CE12341C7EAD2C00851E44 /* Info.plist */,
+			);
+			path = waka;
+			sourceTree = "<group>";
+		};
+		33CE123C1C7EAD2C00851E44 /* wakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CE123D1C7EAD2C00851E44 /* wakaTests.swift */,
+				33CE123F1C7EAD2C00851E44 /* Info.plist */,
+			);
+			path = wakaTests;
+			sourceTree = "<group>";
+		};
+		33CE12471C7EAD2C00851E44 /* wakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33CE12481C7EAD2C00851E44 /* wakaUITests.swift */,
+				33CE124A1C7EAD2D00851E44 /* Info.plist */,
+			);
+			path = wakaUITests;
+			sourceTree = "<group>";
+		};
+		40DD920E803D4EAE5A42FE71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8D4ED27E7041A9654CAD9 /* Pods-waka.debug.xcconfig */,
+				4EBCFB6DE7243DCDB8A69C3E /* Pods-waka.release.xcconfig */,
+				E157548409267A45C4A30F45 /* Pods-wakaTests.debug.xcconfig */,
+				99CE2447414D92BAB281CD1F /* Pods-wakaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B2C70B3D6BD09E2B23144EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A301C74D89A50DFEA3EBAF1D /* Pods_waka.framework */,
+				6A5E82432B67CB35DAC1A0F2 /* Pods_wakaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6880E951C912EE800CBBCEC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D6A979C31CBA0EBE00F8AF79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33CE122A1C7EAD2C00851E44 /* ViewController.swift */,
+				D67B715F1C9007290095C767 /* AboutMeViewController.swift */,
+				D6880E8D1C91263600CBBCEC /* TabBarController.swift */,
+				D6880E8F1C91265B00CBBCEC /* FilterViewController.swift */,
+				D6880E911C91266600CBBCEC /* TunerViewController.swift */,
+				D6880E931C91269A00CBBCEC /* MetronomeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6A979C41CBA0EF000F8AF79 /* AudioProcessers */ = {
+			isa = PBXGroup;
+			children = (
+				331B79CC1CD60D04003D2184 /* Metronome.swift */,
+				D645E7001CC0B0F5006E806F /* ToneGenerator.swift */,
+				332737CF1C9149DB00111D14 /* Filter.swift */,
+				D687D7B71CC0CAAF00745DB4 /* TunerCore.swift */,
+			);
+			name = AudioProcessers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CE12241C7EAD2C00851E44 /* waka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE124D1C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "waka" */;
+			buildPhases = (
+				0DEFE494D7A8A12DE7F8CE6E /* Check Pods Manifest.lock */,
+				33CE12211C7EAD2C00851E44 /* Sources */,
+				33CE12221C7EAD2C00851E44 /* Frameworks */,
+				33CE12231C7EAD2C00851E44 /* Resources */,
+				8BE0B545F78CD909DFEC20D3 /* Embed Pods Frameworks */,
+				F68C179E862C1CC1EAA530C6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waka;
+			productName = waka;
+			productReference = 33CE12251C7EAD2C00851E44 /* waka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CE12381C7EAD2C00851E44 /* wakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE12501C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "wakaTests" */;
+			buildPhases = (
+				DC60959EBAF8B0DBA2793BDB /* Check Pods Manifest.lock */,
+				33CE12351C7EAD2C00851E44 /* Sources */,
+				33CE12361C7EAD2C00851E44 /* Frameworks */,
+				33CE12371C7EAD2C00851E44 /* Resources */,
+				9743B38BA56013E2A2246419 /* Embed Pods Frameworks */,
+				F866D81137253FB6E86266C5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CE123B1C7EAD2C00851E44 /* PBXTargetDependency */,
+			);
+			name = wakaTests;
+			productName = wakaTests;
+			productReference = 33CE12391C7EAD2C00851E44 /* wakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33CE12431C7EAD2C00851E44 /* wakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE12531C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "wakaUITests" */;
+			buildPhases = (
+				00689F55143D157F237E8416 /* Check Pods Manifest.lock */,
+				33CE12401C7EAD2C00851E44 /* Sources */,
+				33CE12411C7EAD2C00851E44 /* Frameworks */,
+				33CE12421C7EAD2C00851E44 /* Resources */,
+				6CF1BD6C9127542856A19C3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CE12461C7EAD2C00851E44 /* PBXTargetDependency */,
+			);
+			name = wakaUITests;
+			productName = wakaUITests;
+			productReference = 33CE12441C7EAD2C00851E44 /* wakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CE121D1C7EAD2C00851E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WellMet;
+				TargetAttributes = {
+					33CE12241C7EAD2C00851E44 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D2V5RTB8M7;
+					};
+					33CE12381C7EAD2C00851E44 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2W7LJ5Z3WC;
+						TestTargetID = 33CE12241C7EAD2C00851E44;
+					};
+					33CE12431C7EAD2C00851E44 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2W7LJ5Z3WC;
+						TestTargetID = 33CE12241C7EAD2C00851E44;
+					};
+				};
+			};
+			buildConfigurationList = 33CE12201C7EAD2C00851E44 /* Build configuration list for PBXProject "waka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CE121C1C7EAD2C00851E44;
+			productRefGroup = 33CE12261C7EAD2C00851E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CE12241C7EAD2C00851E44 /* waka */,
+				33CE12381C7EAD2C00851E44 /* wakaTests */,
+				33CE12431C7EAD2C00851E44 /* wakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CE12231C7EAD2C00851E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE12331C7EAD2C00851E44 /* LaunchScreen.storyboard in Resources */,
+				33CE12301C7EAD2C00851E44 /* Assets.xcassets in Resources */,
+				33CE122E1C7EAD2C00851E44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12371C7EAD2C00851E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12421C7EAD2C00851E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00689F55143D157F237E8416 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0DEFE494D7A8A12DE7F8CE6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF1BD6C9127542856A19C3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakaUITests/Pods-wakaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE0B545F78CD909DFEC20D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waka/Pods-waka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9743B38BA56013E2A2246419 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakaTests/Pods-wakaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC60959EBAF8B0DBA2793BDB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F68C179E862C1CC1EAA530C6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waka/Pods-waka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F866D81137253FB6E86266C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakaTests/Pods-wakaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CE12211C7EAD2C00851E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE122B1C7EAD2C00851E44 /* ViewController.swift in Sources */,
+				D6880E921C91266600CBBCEC /* TunerViewController.swift in Sources */,
+				D6880E8E1C91263600CBBCEC /* TabBarController.swift in Sources */,
+				331B79CD1CD60D04003D2184 /* Metronome.swift in Sources */,
+				D67B71601C9007290095C767 /* AboutMeViewController.swift in Sources */,
+				33CE12291C7EAD2C00851E44 /* AppDelegate.swift in Sources */,
+				332737D01C9149DB00111D14 /* Filter.swift in Sources */,
+				D645E7011CC0B0F5006E806F /* ToneGenerator.swift in Sources */,
+				D6880E901C91265B00CBBCEC /* FilterViewController.swift in Sources */,
+				D6880E941C91269A00CBBCEC /* MetronomeViewController.swift in Sources */,
+				D687D7B81CC0CAAF00745DB4 /* TunerCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12351C7EAD2C00851E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE123E1C7EAD2C00851E44 /* wakaTests.swift in Sources */,
+				332737D11C9149DB00111D14 /* Filter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE12401C7EAD2C00851E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE12491C7EAD2C00851E44 /* wakaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CE123B1C7EAD2C00851E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CE12241C7EAD2C00851E44 /* waka */;
+			targetProxy = 33CE123A1C7EAD2C00851E44 /* PBXContainerItemProxy */;
+		};
+		33CE12461C7EAD2C00851E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CE12241C7EAD2C00851E44 /* waka */;
+			targetProxy = 33CE12451C7EAD2C00851E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33CE122C1C7EAD2C00851E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CE122D1C7EAD2C00851E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CE12311C7EAD2C00851E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CE12321C7EAD2C00851E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CE124B1C7EAD2D00851E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CE124C1C7EAD2D00851E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CE124E1C7EAD2D00851E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD8D4ED27E7041A9654CAD9 /* Pods-waka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = waka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Uxi.waka.beta.v0.3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33CE124F1C7EAD2D00851E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBCFB6DE7243DCDB8A69C3E /* Pods-waka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = waka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Uxi.waka.beta.v0.3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33CE12511C7EAD2D00851E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E157548409267A45C4A30F45 /* Pods-wakaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wellmet.wakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waka.app/waka";
+			};
+			name = Debug;
+		};
+		33CE12521C7EAD2D00851E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CE2447414D92BAB281CD1F /* Pods-wakaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wellmet.wakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waka.app/waka";
+			};
+			name = Release;
+		};
+		33CE12541C7EAD2D00851E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wellmet.wakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = waka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33CE12551C7EAD2D00851E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wellmet.wakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = waka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CE12201C7EAD2C00851E44 /* Build configuration list for PBXProject "waka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE124B1C7EAD2D00851E44 /* Debug */,
+				33CE124C1C7EAD2D00851E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CE124D1C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "waka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE124E1C7EAD2D00851E44 /* Debug */,
+				33CE124F1C7EAD2D00851E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CE12501C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "wakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE12511C7EAD2D00851E44 /* Debug */,
+				33CE12521C7EAD2D00851E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CE12531C7EAD2D00851E44 /* Build configuration list for PBXNativeTarget "wakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE12541C7EAD2D00851E44 /* Debug */,
+				33CE12551C7EAD2D00851E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CE121D1C7EAD2C00851E44 /* Project object */;
+}
